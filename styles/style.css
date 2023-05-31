@@ -51,7 +51,6 @@ body {
     width: 100%;
     height: 890px;
     display: flex;
-    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
     z-index: 0;
 }
 
@@ -63,7 +62,6 @@ body {
     margin-left: 1070px;
     color: white;
     font-size: 90px;
-    text-shadow: 0 2.5px 6px rgba(0,0,0,0.65);
 }
 
 .welcome__bg {
@@ -72,6 +70,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 890px;
     z-index: -1000;
+}
+
+.content1 {
+    height: 2000px;
 }

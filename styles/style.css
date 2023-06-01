@@ -93,12 +93,13 @@ h2 {
 
 .content1 {
     justify-content: center;
-    gap: 200px;
+    gap: 125px;
     display: flex;
     padding-top: 225px;
 }
 
 .content1__text {
+    text-align: left;
     width: 700px;
 }
 
@@ -118,12 +119,14 @@ h2 {
 
 .content2 {
     justify-content: center;
-    gap: 200px;
+    gap: 125px;
     display: flex;
+    flex-direction: row-reverse;
     padding-top: 225px;
 }
 
 .content2__text {
+    text-align: left;
     color: #fff;
     width: 700px;
 }
@@ -144,13 +147,14 @@ h2 {
 
 .content3 {
     justify-content: center;
-    gap: 200px;
+    gap: 125px;
     display: flex;
     padding-top: 225px;
 }
 
 .content3__text {
     width: 700px;
+    text-align: left;
 }
 
 .content3__container img {

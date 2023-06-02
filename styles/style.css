@@ -148,7 +148,7 @@ h2 {
     color: white;
     text-decoration: none;
     letter-spacing:normal;
-    transition: .5s;
+    transition: .15s;
 }
  
 .nav a:hover {  

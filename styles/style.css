@@ -1,6 +1,24 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
 body {
     margin: 0;
     padding: 0;
+}
+
+#loading {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #242424;
+}
+
+.word {
+    text-transform: capitalize;
 }
 
 h1 {
@@ -65,14 +83,34 @@ h2 {
 }
 
 .welcome__text {
+    top: 50%;
+    width: 24em;
     font-size: 90px;
     font-weight: 800;
     text-align: left;
     margin-left: 1070px;
     color: white;
     font-size: 90px;
-}
-
+    white-space: pre-line; /* Allow line breaks */
+    display: inline-block; /* Ensure block-level element */
+  }
+  
+  .welcome__text::after {
+    content: "";
+    border-right: 3px solid rgba(255, 255, 255, .75);
+    margin-left: 1px; /* Adjust the spacing between text and cursor */
+    animation: blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
 .welcome__bg {
     position: absolute;
     filter: brightness(80%);
@@ -163,6 +201,27 @@ h2 {
     height: 500px;
 }
 
+/* CONTRIBUTE
+========================== */
+
+.contribute__container {
+    background-color: #242424;
+    height: 1080px;
+
+    /* work here */
+
+}
+
+/* CREATORS
+========================== */
+
+.creators__container {
+    background-color: #242424;
+    height: 1080px;
+
+    /* work here */
+}
+
 /* FOOTER
 ========================== */
 
@@ -198,5 +257,13 @@ h2 {
     height: 45px;
     width: auto;
     margin: auto 0;
+}
+
+.footer__img{
     cursor: pointer;
 }
+
+.b {
+    height: 2000px;
+}
+

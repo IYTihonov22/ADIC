@@ -8,18 +8,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
+    
+    <div id="loading">
+        <h1>Loading...</h1>
+    </div>
 
+    <div id="content" style="display:none;">
     <div class="header">
         <div class="nav">
 
             <a href="../index.html">Home Page</a>
             <a href="contribute.html">Contribute</a>
-            <a href="comments.html">Comments</a>
             <a href="creators.html">Creators</a>
 
         </div>
     </div>
 
+    <div class="contribute__container">
+
+        <!-- work here -->
+
+    </div>
+
+    <div class="footer">
+        <div class="footer__content">
+            <h2 class="footer__text">phone number: +359 123456789</h2>
+            <h2 class="footer__text">email: samplemail@gmail.com</h2>
+
+            <div class="footer__images">
+                <a href="#"><img src="../images/facebook.png" class="footer__img"></a>
+                <a href="#"><img src="../images/instagram.png" class="footer__img"></a>
+                <a href="#"><img src="../images/twitter.png" class="footer__img"></a>
+                
+            </div>
+
+        </div>
+    </div>
+    </div>
 </body>
 </html>

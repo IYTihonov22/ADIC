@@ -1,5 +1,11 @@
+var animationDuration = .75;
+var hasRun = false;
+
 gsap.registerPlugin(ScrollTrigger);
-// REVEAL //
+
+var scrollObject = function () {
+if(!hasRun){
+gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUp").forEach(function (elem) {
   ScrollTrigger.create({
     trigger: elem,
@@ -7,16 +13,18 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
     end: "bottom 20%",
     markers: true,
     onEnter: function () {
-      gsap.fromTo(
+
+      // if(hasRun = true) alert("true")
+        gsap.fromTo(
         elem,
         { y: 100, autoAlpha: 0 },
         {
-          duration: .75,
+          duration: animationDuration * animationDuration,
           y: 0,
           autoAlpha: 1,
           ease: "back",
           overwrite: "auto"
-        }
+        } 
       );
     },
     onLeave: function () {
@@ -25,9 +33,9 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
     onEnterBack: function () {
       gsap.fromTo(
         elem,
-        { y: -100, autoAlpha: 0 },
+        { y: 0, autoAlpha: 1 },
         {
-          duration: .75,
+          duration: animationDuration ,
           y: 0,
           autoAlpha: 1,
           ease: "forward",
@@ -35,8 +43,18 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
         }
       );
     },
+    
     onLeaveBack: function () {
-      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 1, overwrite: "auto" });
     }
   });
+});
+hasRun = true;
+}
+$(window).off("scroll");
+};
+
+$(window).on("scroll", function () {
+    scrollObject();
+    $(window).off("scroll");
 });

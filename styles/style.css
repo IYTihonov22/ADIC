@@ -392,28 +392,35 @@ h2 {
 .b {
     height: 2000px;
 }
-.creators_container {
-    height: 990px;
+.creators-container {
+    background-color: #242424;
+    height:990px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-  }
-  
-  .creator_card {
+}
+
+.creators {
+    width: 1575px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator-card {
     text-align: center;
-    margin: 0 10px;
-  }
+}
   
-  .creator_image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.creator-image {
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     margin-bottom: 10px;
-  }
+}
   
-  .creator_name {
-    font-size: 16px;
+.creator-name {
+    width:250px;
+    color: #fff;
+    font-size: 32px;
     font-weight: bold;
-  }
+}

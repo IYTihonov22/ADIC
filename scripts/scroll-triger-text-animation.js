@@ -19,7 +19,7 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
           duration: animationDuration * animationDuration,
           y: 0,
           autoAlpha: 1,
-          ease: "back",
+          ease: "cubic",
           overwrite: "auto"
         } 
       );

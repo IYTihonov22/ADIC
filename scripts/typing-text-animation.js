@@ -4,7 +4,7 @@ var letters = ['robots are\nthe future'],
     offset = 0,
     speed = 100;
 
-var isRunning = false; // Flag to track if the script is already running
+var isRunning = false;
 
 var wordflick = function () {
   if (!isRunning) {

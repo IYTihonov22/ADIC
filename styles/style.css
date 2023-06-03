@@ -335,6 +335,16 @@ h2 {
     /* work here */
 }
 
+/* CREATORS
+========================== */
+
+.about__container {
+    background-color: #000;
+    height: 1080px;
+
+    /* work here */
+}
+
 /* FOOTER
 ========================== */
 
@@ -345,6 +355,9 @@ h2 {
     display: flex;
 }
 
+#about__footer {
+    background-color: #242424;
+}
 .footer__content {
     width: 1730px;
     display: flex;
@@ -379,4 +392,3 @@ h2 {
 .b {
     height: 2000px;
 }
-

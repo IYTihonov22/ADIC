@@ -392,3 +392,27 @@ h2 {
 .b {
     height: 2000px;
 }
+.creators-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .creator-card {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .creator-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .creator-name {
+    font-size: 16px;
+    font-weight: bold;
+  }

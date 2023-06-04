@@ -338,13 +338,43 @@ h2 {
 /* CONTRIBUTE
 ========================== */
 
-.contribute__container {
+.comments__container {
     background-color: #242424;
     height: 50vw;
-
-    /* work here */
-
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    
 }
+form{
+    text-align:center;
+    justify-content: center;
+    
+
+    
+}
+.comment_ideas {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+ 
+.input_group {
+
+    margin-bottom: 10px;
+    
+  }
+
+  .input_group input,
+  .input_group textarea {
+    border: 5px solid #181818;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: white;
+   
+  } 
 
 /* ABOUT US
 ========================== */

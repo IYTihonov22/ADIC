@@ -16,7 +16,7 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
         elem,
         { y: 100, autoAlpha: 0 },
         {
-          duration: animationDuration * animationDuration,
+          duration: animationDuration,
           y: 0,
           autoAlpha: 1,
           ease: "cubic",

@@ -346,6 +346,80 @@ h2 {
 
 }
 
+/* ABOUT US
+========================== */
+/* .about__container {
+    background-color: #242424;
+    height: 100vh;
+}
+
+.us {
+    justify-content: center;
+    gap: 6vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about__text {
+    text-align: left;
+    color: #fff;
+    width: 40vw;
+}
+
+.about__us__bg {
+    animation: 1.3s ease-out 0s 1 slideInLeft;
+    position: absolute;
+    filter: brightness(80%);
+    height: 50vw;
+    width: 100vw;
+    z-index: -1000;
+} */
+.about__container { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anonymous Pro', sans-serif;
+    animation: 1.3s ease-out 0s 1 slideInRight;
+    width: 41vw;
+    height: 27.5vw;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 45vw;
+    font-size: 4vw;
+    color: white;
+}
+
+.about__text h1 {
+    text-align: center;
+    font-size: 2.8vw;
+    font-weight: 700;
+}
+
+.about__text h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.4vw;
+}
+  
+.about__bg {
+    margin-top: 4vw;
+    animation: 1.3s ease-out 0s 1 slideInLeft;
+    position: absolute;
+    filter: brightness(80%);
+    height: 50vw;
+    width: 90vw;
+    z-index: -1000;
+}
 /* CREATORS
 ========================== */
 
@@ -429,6 +503,8 @@ h2 {
     height: 4.65vw;
     background-color: #000;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #about__footer {

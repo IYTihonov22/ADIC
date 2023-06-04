@@ -175,7 +175,7 @@ h2 {
 
 .welcome { 
     width: 100vw;
-    height: 47.5vw;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,8 +192,8 @@ h2 {
     margin-left: 50vw;
     font-size: 4vw;
     color: white;
-    white-space: pre-line; /* Allow line breaks */
-    display: inline-block; /* Ensure block-level element */
+    white-space: pre-line; 
+    display: inline-block;
   }
 
 
@@ -249,16 +249,17 @@ h2 {
 ==================== */
 
 .content1__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #d4d4d4;
-    height: 45vw;
+    height: 100vh;
 }
 
 .content1 {
-    margin: 0 10vw ;
+    display: flex;
     justify-content: center;
     gap: 6vw;
-    display: flex;
-    padding-top: 10vw;
 }
 
 .content1:focus-visible {
@@ -280,16 +281,18 @@ h2 {
 ==================== */
 
 .content2__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #242424;
-    height: 45vw;
+    height: 100vh;
 }
 
 .content2 {
+    display: flex;
     justify-content: center;
     gap: 6vw;
-    display: flex;
     flex-direction: row-reverse;
-    padding-top: 10vw;
 }
 
 .content2__text {
@@ -308,15 +311,17 @@ h2 {
 ==================== */
 
 .content3__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #d4d4d4;
-    height: 45vw;
+    height: 100vh;
 }
 
 .content3 {
+    display: flex;
     justify-content: center;
     gap: 6vw;
-    display: flex;
-    padding-top: 10vw;
 }
 
 .content3__text {

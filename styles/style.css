@@ -179,6 +179,7 @@ h2 {
     color: white;
     text-decoration: none;
     letter-spacing: normal;
+    transition: .2s;
 }
 
 .nav a:hover {

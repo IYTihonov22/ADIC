@@ -7,8 +7,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUp").forEach(function (elem) {
   ScrollTrigger.create({
     trigger: elem,
-    start: "top 80%",
-    end: "bottom 20%",
     markers: false,
     onEnter: function () {
 

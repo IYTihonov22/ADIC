@@ -2,64 +2,65 @@
 <html>
 
 <head>
-    <title>ADIC</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Comments</title>
+    <link rel="stylesheet" href="../styles/style.css"> <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnect to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnect to Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> <!-- Link to Montserrat font -->
 </head>
 
-<body
-    onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
+<body onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
     <!-- LOADING SCREEN -->
     <div id="loading">
         <h1>Loading...</h1>
-        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+        <div class="lds-spinner">
+            <!-- Loading spinner -->
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
     </div>
 
     <div id="content" style="display:none;">
         <!-- HEADER -->
         <div class="header">
             <div class="nav">
-
-                <a href="../index.html">Home Page</a>
-                <a href="comments.html">Comments</a>
-                <a href="creators.html">Creators</a>
-                <a href="about-us.html">About Us</a>
-
+                <a href="../index.html">Home Page</a> <!-- Link to Home Page -->
+                <a href="comments.html">Comments</a> <!-- Link to Comments page -->
+                <a href="creators.html">Creators</a> <!-- Link to Creators page -->
+                <a href="about-us.html">About Us</a> <!-- Link to About Us page -->
             </div>
         </div>
+
         <!-- COMMENTS -->
         <div class="comments__container">
             <form id="comment_form" method="post">
-                <h1>Comment your ideas:</h1>
-              
+                <h1>Comment your ideas:</h1> <!-- Heading for comment section -->
+
                 <div class="input__group">
-                  <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Name" name="name" required> <!-- Input field for name -->
                 </div>
-              
+
                 <div class="input__group">
-                  <textarea placeholder="Your comment" name="comment" contenteditable required></textarea>
+                    <textarea placeholder="Your comment" name="comment" contenteditable required></textarea> <!-- Textarea for comment -->
                 </div>
-              
-                <button type="submit">Submit</button>
-              </form>
-              
-            <script src="../scripts/jquery.min.js"></script><script src="../scripts/comment.js"></script>
+
+                <button type="submit">Submit</button> <!-- Submit button -->
+            </form>
+
+            <script src="../scripts/jquery.min.js"></script> <!-- jQuery library -->
+            <script src="../scripts/comment.js"></script> <!-- Script for handling comments -->
         </div>
+
         <!-- FOOTER -->
         <div class="footer">
             <div class="footer__content">
-                <h2 class="footer__text">Phone number: +359 123456789</h2>
-                <h2 class="footer__text">Email: samplemail@gmail.com</h2>
+                <h2 class="footer__text">Phone number: +359 123456789</h2> <!-- Phone number text -->
+                <h2 class="footer__text">Email: samplemail@gmail.com</h2> <!-- Email address text -->
 
                 <div class="footer__images">
-                    <a href="#"><img src="../images/facebook.png" class="footer__img"></a>
-                    <a href="#"><img src="../images/instagram.png" class="footer__img"></a>
-                    <a href="#"><img src="../images/twitter.png" class="footer__img"></a>
-
+                    <a href="https://www.facebook.com/codingburgas" target="_blank"><img src="../images/facebook.png" class="footer__img"></a> <!-- Link to Facebook -->
+                    <a href="https://www.instagram.com/codingburgas" target="_blank"><img src="../images/instagram.png" class="footer__img"></a> <!-- Link to Instagram -->
+                    <a href="https://twitter.com/codingburgas" target="_blank"><img src="../images/twitter.png" class="footer__img"></a> <!-- Link to Twitter -->
                 </div>
-
             </div>
         </div>
     </div>

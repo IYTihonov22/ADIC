@@ -1,92 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ADIC</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Creators</title>
+    <link rel="stylesheet" href="../styles/style.css"> <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnect to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnect to Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> <!-- Link to Montserrat font -->
 </head>
 
 <body onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
-   <!-- LOADING SCREEN  -->
+    <!-- LOADING SCREEN -->
     <div id="loading">
         <h1>Loading...</h1>
-        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+        <div class="lds-spinner">
+            <!-- Loading spinner -->
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
     </div>
 
     <div id="content" style="display:none;">
-      <!-- HEADER -->
-      <div class="header">
-        <div class="nav">
-    
-          <a href="../index.html">Home Page</a>
-          <a href="comments.html">Comments</a>
-          <a href="creators.html">Creators</a>
-          <a href="about-us.html">About Us</a>
-    
-        </div>
-      </div>
-      <!-- CREATORS -->
-      <div class="creators__container">
-    
-        <div class="creators__text">
-          <h1>Creators</h1>
-        </div>
-    
-        <div class="creators">
-    
-          <div class="creator__card">
-            <div class="creator__role">
-              <h2>Scrum<br>Trainer</h2>
+        <!-- HEADER -->
+        <div class="header">
+            <div class="nav">
+                <a href="../index.html">Home Page</a> <!-- Link to Home Page -->
+                <a href="comments.html">Comments</a> <!-- Link to Comments page -->
+                <a href="creators.html">Creators</a> <!-- Link to Creators page -->
+                <a href="about-us.html">About Us</a> <!-- Link to About Us page -->
             </div>
-            <img class="creator__image" src="../images/ivan.jpg" alt="Creator 1 Image">
-            <h2 class="creator__name">Ivan<br>Tikhonov</h2>
-          </div>
-    
-          <div class="creator__card">
-            <div class="creator__role">
-              <h2>Programmer</h2>
-            </div>
-            <img class="creator__image" src="../images/nikita.jpg" alt="Creator 2 Image">
-            <h2 class="creator__name">Nikita<br>Balandin</h2>
-          </div>
-    
-          <div class="creator__card">
-            <div class="creator__role">
-              <h2>Programmer</h2>
-            </div>
-            <img class="creator__image" src="../images/alexander.jpg" alt="Creator 3 Image">
-            <h2 class="creator__name">Aleksander<br>Harakchiyski</h2>
-          </div>
-    
-          <div class="creator__card">
-            <div class="creator__role">
-              <h2>Designer</h2>
-            </div>
-            <img class="creator__image" src="../images/daniel.jpg" alt="Creator 4 Image">
-            <h2 class="creator__name">Daniel<br>Hristov</h2>
-          </div>
-    
         </div>
-      </div>
-    
-      <!-- FOOTER -->
-      <div id="#about__footer" class="footer">
-        <div class="footer__content">
-          <h2 class="footer__text">Phone number: +359 123456789</h2>
-          <h2 class="footer__text">Email: samplemail@gmail.com</h2>
-    
-          <div class="footer__images">
-            <a href="#"><img src="../images/facebook.png" class="footer__img"></a>
-            <a href="#"><img src="../images/instagram.png" class="footer__img"></a>
-            <a href="#"><img src="../images/twitter.png" class="footer__img"></a>
-    
-          </div>
-    
+
+        <!-- CREATORS -->
+        <div class="creators__container">
+            <div class="creators__text">
+                <h1>Creators</h1> <!-- Heading for Creators section -->
+            </div>
+
+            <div class="creators">
+                <!-- Creator 1 -->
+                <div class="creator__card">
+                    <div class="creator__role">
+                        <h2>Scrum<br>Trainer</h2> <!-- Role of the creator -->
+                    </div>
+                    <img class="creator__image" src="../images/ivan.jpg" alt="Creator 1 Image"> <!-- Image of the creator -->
+                    <h2 class="creator__name">Ivan<br>Tikhonov</h2> <!-- Name of the creator -->
+                </div>
+
+                <!-- Creator 2 -->
+                <div class="creator__card">
+                    <div class="creator__role">
+                        <h2>Programmer</h2> <!-- Role of the creator -->
+                    </div>
+                    <img class="creator__image" src="../images/nikita.jpg" alt="Creator 2 Image"> <!-- Image of the creator -->
+                    <h2 class="creator__name">Nikita<br>Balandin</h2> <!-- Name of the creator -->
+                </div>
+
+                <!-- Creator 3 -->
+                <div class="creator__card">
+                    <div class="creator__role">
+                        <h2>Programmer</h2> <!-- Role of the creator -->
+                    </div>
+                    <img class="creator__image" src="../images/alexander.jpg" alt="Creator 3 Image"> <!-- Image of the creator -->
+                    <h2 class="creator__name">Aleksander<br>Harakchiyski</h2> <!-- Name of the creator -->
+                </div>
+
+                <!-- Creator 4 -->
+                <div class="creator__card">
+                    <div class="creator__role">
+                        <h2>Designer</h2> <!-- Role of the creator -->
+                    </div>
+                    <img class="creator__image" src="../images/daniel.jpg" alt="Creator 4 Image"> <!-- Image of the creator -->
+                    <h2 class="creator__name">Daniel<br>Hristov</h2> <!-- Name of the creator -->
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- FOOTER -->
+        <div id="#about__footer" class="footer">
+            <div class="footer__content">
+                <h2 class="footer__text">Phone number: +359 123456789</h2> <!-- Phone number text -->
+                <h2 class="footer__text">Email: samplemail@gmail.com</h2> <!-- Email address text -->
+
+                <div class="footer__images">
+                  <a href="https://www.facebook.com/codingburgas" target="_blank"><img src="../images/facebook.png" class="footer__img"></a> <!-- Link to Facebook -->
+                  <a href="https://www.instagram.com/codingburgas" target="_blank"><img src="../images/instagram.png" class="footer__img"></a> <!-- Link to Instagram -->
+                  <a href="https://twitter.com/codingburgas" target="_blank"><img src="../images/twitter.png" class="footer__img"></a> <!-- Link to Twitter -->
+                </div>
+            </div>
+        </div>
     </div>
-    </body>
-    
-    </html>
+</body>
+
+</html>

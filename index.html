@@ -2,97 +2,102 @@
 <html>
 <head>
     <title>ADIC</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/style.css"> <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnect to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnect to Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> <!-- Link to Montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- Link to Anonymous Pro font -->
 </head>
 
 <body onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
     <!-- LOADING SCREEN -->
-<div id="loading">
-    <h1>Loading...</h1> 
-    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
-</div>
+    <div id="loading">
+        <h1>Loading...</h1>
+        <div class="lds-spinner"> <!-- Loading spinner -->
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+    </div>
     
-<div id="content" style="display:none;">
-    <!-- HEADER -->
-    <div class="header">
-        <div class="nav">
-            <a href="index.html">Home Page</a>
-            <a href="html/comments.html">Comments</a>
-            <a href="html/creators.html">Creators</a>
-            <a href="html/about-us.html">About Us</a>
- 
-        </div>
-    </div>
-    <!-- WELCOME -->
-    <div class="welcome">
-        <h1 class="welcome__text"><word class="word"></word></h1>
-        <script src='scripts/jquery.min.js'></script><script  src="scripts/typing-text-animation.js"></script>
-        <img src="images/welcome-bg.jpg" class="welcome__bg">
-    </div>
-    <!-- CONTENT 1 -->
-    <div class="content1__container">
-        <div class="revealUp">
-        <div class="content1">
-            <div class="content1__text">
-                <h1>What Is A Robot?</h1>
-                <h2>A robot is a programmable machine designed to carry out specific tasks autonomously or semi-autonomously. It typically consists of mechanical components, sensors, actuators, and a control system, enabling it to interact with its environment.</h2>
-            </div>
-            <div class="content1__image">
-                <img src="images/desc1.jpg" alt="">
+    <div id="content" style="display:none;">
+        <!-- HEADER -->
+        <div class="header">
+            <div class="nav">
+                <a href="index.html">Home Page</a> <!-- Link to Home Page -->
+                <a href="html/comments.html">Comments</a> <!-- Link to Comments page -->
+                <a href="html/creators.html">Creators</a> <!-- Link to Creators page -->
+                <a href="html/about-us.html">About Us</a> <!-- Link to About Us page -->
             </div>
         </div>
+        
+        <!-- WELCOME -->
+        <div class="welcome">
+            <h1 class="welcome__text"><word class="word"></word></h1> <!-- Welcome text -->
+            <script src='scripts/jquery.min.js'></script> <!-- jQuery library -->
+            <script src="scripts/typing-text-animation.js"></script> <!-- Script for typing text animation -->
+            <img src="images/welcome-bg.jpg" class="welcome__bg"> <!-- Welcome background image -->
         </div>
-    </div>
-    <!-- CONTENT 2 -->
-    <div class="content2__container">
-        <div class="revealUp">
-        <div class="content2">
+        
+        <!-- CONTENT 1 -->
+        <div class="content1__container">
+            <div class="revealUp">
+                <div class="content1">
+                    <div class="content1__text">
+                        <h1>What Is A Robot?</h1> <!-- Heading for content section 1 -->
+                        <h2>A robot is a programmable machine designed to carry out specific tasks autonomously or semi-autonomously. It typically consists of mechanical components, sensors, actuators, and a control system, enabling it to interact with its environment.</h2> <!-- Description for content section 1 -->
+                    </div>
+                    <div class="content1__image">
+                        <img src="images/desc1.jpg" alt=""> <!-- Image for content section 1 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CONTENT 2 -->
+        <div class="content2__container">
+            <div class="revealUp">
+                <div class="content2">
+                    <div class="content2__text">
+                        <h1>Importance of Robotics</h1> <!-- Heading for content section 2 -->
+                        <h2>Robotics is a field that holds immense importance in today's rapidly advancing world. It combines science, engineering, and technology to create intelligent machines capable of performing complex tasks with precision and efficiency.</h2> <!-- Description for content section 2 -->
+                    </div>
+                    <div class="content2__image">
+                        <img src="images/desc2.jpg" alt=""> <!-- Image for content section 2 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CONTENT 3 -->
+        <div class="content3__container">
+            <div class="revealUp">
+                <div class="content3">
+                    <div class="content3__text">
+                        <h1>Applications of Robotics</h1> <!-- Heading for content section 3 -->
+                        <h2>Robotics combines science, engineering, and technology to create intelligent machines. From manufacturing to healthcare and space exploration, robots perform complex tasks with precision, revolutionizing industries and enhancing our lives.</h2> <!-- Description for content section 3 -->
+                    </div>
+                    <script src='scripts/gsap-latest-beta.min.js'></script> <!-- GSAP animation library -->
+                    <script src='scripts/ScrollTrigger.min.js'></script> <!-- ScrollTrigger library -->
+                    <script src="scripts/scroll-triger-text-animation.js"></script> <!-- Script for scroll-triggered text animation -->
+                    <div class="content3__image">
+                        <img src="images/desc3.jpg" alt=""> <!-- Image for content section 3 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer__content">
+                <h2 class="footer__text">Phone number: +359 123456789</h2> <!-- Phone number text -->
+                <h2 class="footer__text">Email: samplemail@gmail.com</h2> <!-- Email address text -->
 
-            <div class="content2__text">
-                <h1 >Importance of Robotics</h1>
-                <h2>Robotics is a field that holds immense importance in today's rapidly advancing world. It combines science, engineering, and technology to create intelligent machines capable of performing complex tasks with precision and efficiency.</h2>
+                <div class="footer__images">
+                    <a href="https://www.facebook.com/codingburgas" target="_blank"><img src="images/facebook.png" class="footer__img"></a> <!-- Link to Facebook -->
+                    <a href="https://www.instagram.com/codingburgas" target="_blank"><img src="images/instagram.png" class="footer__img"></a> <!-- Link to Instagram -->
+                    <a href="https://twitter.com/codingburgas" target="_blank"><img src="images/twitter.png" class="footer__img"></a> <!-- Link to Twitter -->
+                </div>
             </div>
-            <div class="content2__image">
-                <img src="images/desc2.jpg" alt="">
-            </div>
-        </div>
         </div>
     </div>
-    <!-- CONTENT 3 -->
-    <div class="content3__container">
-        <div class="revealUp">
-        <div class="content3">
-            <div class="content3__text">
-                <h1 >Applications of Robotics</h1>
-                <h2>Robotics combines science, engineering, and technology to create intelligent machines. From manufacturing to healthcare and space exploration, robots perform complex tasks with precision, revolutionizing industries and enhancing our lives.</h2>
-            </div>
-            <script src='scripts/gsap-latest-beta.min.js'></script>
-            <script src='scripts/ScrollTrigger.min.js'></script><script  src="scripts/scroll-triger-text-animation.js"></script>
-            <div class="content3__image">
-                <img src="images/desc3.jpg" alt="">
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- FOOTER -->
-    <div class="footer">
-        <div class="footer__content">
-            <h2 class="footer__text">Phone number: +359 123456789</h2>
-            <h2 class="footer__text">Email: samplemail@gmail.com</h2>
-
-            <div class="footer__images">
-                <a href="#"><img src="images/facebook.png" class="footer__img"></a>
-                <a href="#"><img src="images/instagram.png" class="footer__img"></a>
-                <a href="html/preview.html"><img src="images/twitter.png" class="footer__img"></a>
-                
-            </div>
-
-        </div>
-    </div>
-</div>
 </body>
 </html>

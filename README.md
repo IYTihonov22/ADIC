@@ -51,5 +51,8 @@ The documentation for this project can be found in the [`/docs`](./docs) directo
 - [Presentation](/docs/presentation.pptx)
 - [Documentation](/docs/documentation.docx)
 
+## Design
+[Design link](https://www.figma.com/file/dzYfin0IEKEo6wkyrSy2FA/adic?type=design&node-id=0-1&t=kGGYMK0wHTMNJldL-0)
+
 ## License
 This project is licensed under the [MIT LICENSE](/LICENSE).

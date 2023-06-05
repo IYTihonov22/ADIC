@@ -36,7 +36,7 @@ Clone the repository: `git clone https://github.com/IYTihonov22/ADIC.git`
 
    ```bash
    cd server
-   node server.js
+   node saveFormData.js
 
 3. To see user's input on the comments page, open formData.txt in the server directory.
    It stores all the stored comments and looks like this:

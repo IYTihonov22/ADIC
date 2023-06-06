@@ -27,7 +27,10 @@
 ![My Skills](https://skills.thijs.gg/icons?i=html,css,js,nodejs,figma,vscode,git)
 
 ## Installation
-Clone the repository: `git clone https://github.com/IYTihonov22/ADIC.git`
+Clone the repository:
+
+  ```bash
+  git clone https://github.com/IYTihonov22/ADIC.git
 
 
 ## Usage

@@ -30,8 +30,8 @@
 Clone the repository:
 
   ```bash
-  git clone https://github.com/IYTihonov22/ADIC.git
-
+  git clone         https://github.com/IYTihonov22/ADIC.git
+  ```
 
 ## Usage
 1. Open the index.html file in your browser.

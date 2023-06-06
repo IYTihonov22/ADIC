@@ -32,13 +32,13 @@ Clone the repository: `git clone https://github.com/IYTihonov22/ADIC.git`
 
 ## Usage
 1. Open the index.html file in your browser.
-2. To start the Node.js server for this project run saveFormData.js in the server directory:
+2. To start the Node.js server for this project run saveFormData.js in the [`/server`](./server) directory:
 
    ```bash
    cd server
    node saveFormData.js
 
-3. To see user's input on the comments page, open formData.txt in the server directory.
+3. To see user's input on the comments page, open formData.txt in the [`/server`](./server) directory.
    It stores all the stored comments and looks like this:
 
    ```bash

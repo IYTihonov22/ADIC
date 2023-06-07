@@ -6,7 +6,7 @@ var scrollObject = function () {
 
   // Register the ScrollTrigger plugin (again)
   gsap.registerPlugin(ScrollTrigger);
-  
+
   // Iterate over each element with the class "revealUp"
   gsap.utils.toArray(".revealUp").forEach(function (elem) {
     // Create a ScrollTrigger for each element
@@ -16,7 +16,7 @@ var scrollObject = function () {
 
       // When the element enters the viewport
       onEnter: function () {
-        
+
         // Apply animation using GSAP fromTo method
         gsap.fromTo(
           elem,
@@ -27,7 +27,7 @@ var scrollObject = function () {
             autoAlpha: 1, // Fully opaque
             ease: "cubic", // Use cubic easing function
             overwrite: "auto" // Allow automatic overwriting
-          } 
+          }
         );
       },
     });

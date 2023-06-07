@@ -1,7 +1,7 @@
 html {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     height: 100%; /* Set the height of the HTML element to 100% */
-    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-width: thin; /* Set the width of the scrollbar (doesn't work in chrome)*/ 
 }
 
 body {

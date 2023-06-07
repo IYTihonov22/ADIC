@@ -177,6 +177,7 @@ h2 {
 ==================== */
 
 .welcome {
+    max-width: 100%; /* Sets the max width of the element to 100%*/
     width: 100vw; /* Sets the width of the element to 100% of the viewport width */
     height: 95vh; /* Sets the height of the element to 95% of the viewport height */
     display: flex; /* Displays the element as a flex container */
